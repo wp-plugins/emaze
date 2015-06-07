@@ -54,8 +54,12 @@ You can edit the embedded presentation and set max `width` and max `height` dime
 
 **Note:** Doing it the WordPress way, using the `[embed]` shortcode, is backwards and forward compatible, and it works  with all the themes.
 
+== Screenshots ==
+1. Pasting the presentation URL to the text-editor.
+2. Pasting the presentation URL to the visual-editor.
+
 == Changelog ==
 
-= 1.0 =
+= 1.0 (2015-06-07) =
 * Initial release
 * Register embed handler.
