@@ -3,7 +3,7 @@ Contributors: emaze, ramiy
 Tags: Emaze, presentation, embed
 Requires at least: 3.5
 Tested up to: 4.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,13 +11,23 @@ Embed presentation from Emaze.com into your WordPress site
 
 == Description ==
 
-[Emaze](https://www.emaze.com) is the next generation of online presentations, empowering you to create an amazing impression through design and technology. Instead of the standardized templates and features other tools provide, emaze allows you to have limitation-free creativity.
+Create amazing presentation and embed them to your WordPress site using [Emaze](https://www.emaze.com) online tools.
+
+= About Emaze =
+
+[Emaze.com](https://www.emaze.com) is the next generation of online presentations, empowering you to create an amazing impression through design and technology. Instead of the standardized templates and features other tools provide, emaze allows you to have limitation-free creativity.
 
 You can choose from any of our pre-designed templates made from a wide range of categories, by top designers to fit your messaging. In every presentation, you can utilize innovative features from 3D scenes to 2D slides, pan and zoom, videos, animation, sound effects and more.
 
 You can easily make the transition from PowerPoint to emaze by importing your presentation through our easy-to-use application. emaze gives you the ability to share your presentation without the hassle of sending a heavy file that’s too big to send.
 
+= Emaze WordPress Plugin =
+
 Using this WordPress plugin you can embed [presentation](https://www.emaze.com/get-inspired/) into your WordPress site using nothing but the URL. Just copy the presentation URL and paste it to the post text editor. Then simply click over to the visual editor to confirm that it loads properly.
+
+= More Information =
+
+For any questions or more information, please [contact us](https://www.emaze.com/contact-us/).
 
 == Installation ==
 
@@ -59,6 +69,12 @@ You can edit the embedded presentation and set max `width` and max `height` dime
 2. Pasting the presentation URL to the visual-editor.
 
 == Changelog ==
+
+= 1.1 (2015-06-21) =
+* Add ssl support - embed http and https items.
+* Fix embed handler - better embed code.
+* Add i18n support.
+* Add hebrew (he_IL) traslation.
 
 = 1.0 (2015-06-07) =
 * Initial release

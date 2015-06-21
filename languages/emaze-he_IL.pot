@@ -1,0 +1,37 @@
+# Copyright (C) 2015 Emaze
+# This file is distributed under the same license as the Emaze package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Emaze 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/emaze\n"
+"POT-Creation-Date: 2015-06-17 12:46:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-06-17 15:48+0200\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: Rami Yushuvaev <r_a_m_i@hotmail.com>\n"
+"Language: he_IL\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Emaze"
+msgstr "Emaze"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/emaze/"
+msgstr "https://wordpress.org/plugins/emaze/"
+
+#. Description of the plugin/theme
+msgid "Embed presentation from Emaze.com into your WordPress site"
+msgstr "הטמעת מצגות מתוך Emaze.com באתרי וורדפרס."
+
+#. Author of the plugin/theme
+msgid "Rami Yushuvaev"
+msgstr "רמי יושובייב"
+
+#. Author URI of the plugin/theme
+msgid "http://GenerateWP.com/"
+msgstr "http://GenerateWP.com/"
