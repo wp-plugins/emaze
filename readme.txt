@@ -3,7 +3,7 @@ Contributors: emaze, ramiy
 Tags: Emaze, presentation, embed
 Requires at least: 3.5
 Tested up to: 4.2
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -70,6 +70,9 @@ You can edit the embedded presentation and set max `width` and max `height` dime
 
 == Changelog ==
 
+= 1.2 (2015-07-01) =
+* Update embed handler REGEX to embed from <app.emaze.com> and <www.emaze.com> and <emaze.com>.
+
 = 1.1 (2015-06-21) =
 * Add ssl support - embed http and https items.
 * Fix embed handler - better embed code.
@@ -77,5 +80,5 @@ You can edit the embedded presentation and set max `width` and max `height` dime
 * Add hebrew (he_IL) traslation.
 
 = 1.0 (2015-06-07) =
-* Initial release
+* Initial release.
 * Register embed handler.

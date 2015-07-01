@@ -3,7 +3,7 @@
 Plugin Name: Emaze
 Plugin URI:  https://wordpress.org/plugins/emaze/
 Description: Embed presentation from Emaze.com into your WordPress site
-Version:     1.1
+Version:     1.2
 Author:      Rami Yushuvaev
 Author URI:  http://GenerateWP.com/
 Text Domain: emaze
@@ -39,7 +39,7 @@ function emaze_embed() {
 
 	wp_embed_register_handler(
 		'emaze',
-		'#https?://app.emaze.com/(.*)#i',
+		'#https?://(www.|app.)?emaze.com/(.*)#i',
 		'emaze_embed_handler'
 	);
 
