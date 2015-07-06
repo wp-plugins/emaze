@@ -3,7 +3,7 @@ Contributors: emaze, ramiy
 Tags: Emaze, presentation, embed
 Requires at least: 3.5
 Tested up to: 4.2
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,6 +69,9 @@ You can edit the embedded presentation and set max `width` and max `height` dime
 2. Pasting the presentation URL to the visual-editor.
 
 == Changelog ==
+
+= 1.3 (2015-07-07) =
+* Fix embed handler - error in v1.2.
 
 = 1.2 (2015-07-01) =
 * Update embed handler REGEX to embed from <app.emaze.com> and <www.emaze.com> and <emaze.com>.

@@ -3,7 +3,7 @@
 Plugin Name: Emaze
 Plugin URI:  https://wordpress.org/plugins/emaze/
 Description: Embed presentation from Emaze.com into your WordPress site
-Version:     1.2
+Version:     1.3
 Author:      Rami Yushuvaev
 Author URI:  http://GenerateWP.com/
 Text Domain: emaze
@@ -28,7 +28,7 @@ function emaze_embed_handler( $matches, $attr, $url, $rawattr ) {
 
 	$embed = sprintf(
 		'<iframe src="https://app.emaze.com/%1$s" width="960" height="540" seamless webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
-		esc_attr( $matches[1] )
+		esc_attr( $matches[2] )
 	);
 
 	return apply_filters( 'embed_emaze', $embed, $matches, $attr, $url, $rawattr );
